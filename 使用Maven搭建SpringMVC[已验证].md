@@ -130,6 +130,8 @@
 
 ![img](https://images2015.cnblogs.com/blog/148021/201706/148021-20170610235704481-550371473.png)
 
+
+
 代码见：https://github.com/gitxiaowenbo/springmvc02.git
 
 具体使用可见官方文档：http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/
