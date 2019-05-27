@@ -27,6 +27,7 @@ public class UserController {
         int userId = Integer.parseInt(request.getParameter("id"));
         User user = this.userService.findUserById(userId);
         model.addAttribute("user", user);
+        
         logger.info(">>>info:"+JSON.toJSONString(user));
         return "User";
     }
