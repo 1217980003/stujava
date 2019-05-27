@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.alibaba.fastjson.JSON;
 import com.stu.pojo.User;
 import com.stu.service.IUserService;
 import com.stu.testmybatis.TestMybatis;
@@ -26,6 +27,7 @@ public class UserController {
         int userId = Integer.parseInt(request.getParameter("id"));
         User user = this.userService.findUserById(userId);
         model.addAttribute("user", user);
+        logger.info(">>>info:"+JSON.toJSONString(user));
         return "User";
     }
 }
