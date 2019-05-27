@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.alibaba.fastjson.JSON;
 import com.stu.pojo.User;
 import com.stu.service.IUserService;
-import com.stu.testmybatis.TestMybatis;
 
 @Controller
 @RequestMapping("/user")
